@@ -114,6 +114,7 @@ export interface Tienda {
   n_ofertas: string;
   logo_tienda: string;
   productos: Producto[];
+  temp: string;
 }
 
 export interface ServiceResponse {
