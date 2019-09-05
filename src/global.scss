@@ -24,3 +24,31 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+.item_card{
+  //background-position: center;
+  //background-size: cover;
+  //background-repeat: no-repeat;
+  height: 150px;
+  border-radius: 15px;
+}
+.item_title{
+  width: 75%;
+  font-size:20px;
+  font-weight: bold;
+}
+.item_title_header{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  color: white;
+}
+.logo_marina{
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+
+.contrast { filter: contrast(40%); }
+
+.grayscale { filter: grayscale(10%); }
+//.blur { filter: blur(0.5px); }
