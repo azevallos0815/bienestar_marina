@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Vivienda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-card class="grayscale contrast blur item_card"
+              *ngFor="let item of results" [ngStyle]="{'background-image': 'url(' + item.image + ')'}"
+              [routerLink]="item.url" routerDirection="root" routerLinkActive="active">
+      <ion-avatar class="logo_marina" slot="start">
+        <img src="/assets/logos/escudo.png">
+      </ion-avatar>
+      <ion-card-header class="item_title_header">
+        <ion-card-title class="item_title" color="black" text-wrap>{{item.title}}</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+  </ion-list>
+</ion-content>
