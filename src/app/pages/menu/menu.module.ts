@@ -46,6 +46,10 @@ const routes: Routes = [
         path: 'asesoria',
         loadChildren: '../asesoria/asesoria.module#AsesoriaPageModule'
       },
+      {
+        path: 'detalle-tienda/:id/:urlback',
+        loadChildren: '../detalle-tienda/detalle-tienda.module#DetalleTiendaPageModule'
+      },
     ]
   }
 ];
