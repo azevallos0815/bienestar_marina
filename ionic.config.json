@@ -1,6 +1,8 @@
 {
   "name": "academyMenuSub",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "e64fdcd0"
 }
